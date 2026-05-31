@@ -1,0 +1,14 @@
+pandas>=2.1.0
+sqlmodel>=0.0.14
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+python-dotenv>=1.0.0
+typer>=0.9.0
+rich>=13.7.0
+requests>=2.31.0
+feedparser>=6.0.10
+pytest>=7.4.0
+pytest-cov>=4.1.0
+streamlit>=1.32.0
+# Optional LLM SDKs (the agent degrades to rule-based mode if absent / no API key)
+openai>=1.10.0

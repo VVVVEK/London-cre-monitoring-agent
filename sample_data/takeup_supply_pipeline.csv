@@ -1,0 +1,47 @@
+date,submarket,metric,value,unit,source
+2025-03-31,City,takeup,520.0,k_sqft,sample_data:CBRE-style-mock
+2025-06-30,City,takeup,540.0,k_sqft,sample_data:CBRE-style-mock
+2025-09-30,City,takeup,510.0,k_sqft,sample_data:CBRE-style-mock
+2025-12-31,City,takeup,530.0,k_sqft,sample_data:CBRE-style-mock
+2026-03-31,City,takeup,505.0,k_sqft,sample_data:CBRE-style-mock
+2025-03-31,West End,takeup,310.0,k_sqft,sample_data:CBRE-style-mock
+2025-06-30,West End,takeup,300.0,k_sqft,sample_data:CBRE-style-mock
+2025-09-30,West End,takeup,330.0,k_sqft,sample_data:CBRE-style-mock
+2025-12-31,West End,takeup,340.0,k_sqft,sample_data:CBRE-style-mock
+2026-03-31,West End,takeup,350.0,k_sqft,sample_data:CBRE-style-mock
+2025-03-31,Canary Wharf,takeup,250.0,k_sqft,sample_data:CBRE-style-mock
+2025-06-30,Canary Wharf,takeup,220.0,k_sqft,sample_data:CBRE-style-mock
+2025-09-30,Canary Wharf,takeup,180.0,k_sqft,sample_data:CBRE-style-mock
+2025-12-31,Canary Wharf,takeup,120.0,k_sqft,sample_data:CBRE-style-mock
+2026-03-31,Canary Wharf,takeup,90.0,k_sqft,sample_data:CBRE-style-mock
+2025-03-31,Midtown,takeup,150.0,k_sqft,sample_data:CBRE-style-mock
+2025-06-30,Midtown,takeup,155.0,k_sqft,sample_data:CBRE-style-mock
+2025-09-30,Midtown,takeup,148.0,k_sqft,sample_data:CBRE-style-mock
+2025-12-31,Midtown,takeup,152.0,k_sqft,sample_data:CBRE-style-mock
+2026-03-31,Midtown,takeup,150.0,k_sqft,sample_data:CBRE-style-mock
+2025-03-31,City,net_absorption,120.0,k_sqft,sample_data:CBRE-style-mock
+2025-06-30,City,net_absorption,90.0,k_sqft,sample_data:CBRE-style-mock
+2025-09-30,City,net_absorption,60.0,k_sqft,sample_data:CBRE-style-mock
+2025-12-31,City,net_absorption,40.0,k_sqft,sample_data:CBRE-style-mock
+2026-03-31,City,net_absorption,30.0,k_sqft,sample_data:CBRE-style-mock
+2025-03-31,Canary Wharf,net_absorption,-40.0,k_sqft,sample_data:CBRE-style-mock
+2025-06-30,Canary Wharf,net_absorption,-90.0,k_sqft,sample_data:CBRE-style-mock
+2025-09-30,Canary Wharf,net_absorption,-160.0,k_sqft,sample_data:CBRE-style-mock
+2025-12-31,Canary Wharf,net_absorption,-220.0,k_sqft,sample_data:CBRE-style-mock
+2026-03-31,Canary Wharf,net_absorption,-260.0,k_sqft,sample_data:CBRE-style-mock
+2026-03-31,City,pipeline_stock,3200.0,k_sqft,sample_data:Deloitte-Crane-style-mock
+2026-03-31,West End,pipeline_stock,1400.0,k_sqft,sample_data:Deloitte-Crane-style-mock
+2026-03-31,Canary Wharf,pipeline_stock,1800.0,k_sqft,sample_data:Deloitte-Crane-style-mock
+2026-03-31,Midtown,pipeline_stock,650.0,k_sqft,sample_data:Deloitte-Crane-style-mock
+2026-03-31,City,completions,900.0,k_sqft,sample_data:Deloitte-Crane-style-mock
+2026-03-31,West End,completions,420.0,k_sqft,sample_data:Deloitte-Crane-style-mock
+2026-03-31,Canary Wharf,completions,650.0,k_sqft,sample_data:Deloitte-Crane-style-mock
+2026-03-31,Midtown,completions,180.0,k_sqft,sample_data:Deloitte-Crane-style-mock
+2026-03-31,City,refurb_pipeline,1100.0,k_sqft,sample_data:Deloitte-Crane-style-mock
+2026-03-31,West End,refurb_pipeline,800.0,k_sqft,sample_data:Deloitte-Crane-style-mock
+2026-03-31,Canary Wharf,refurb_pipeline,300.0,k_sqft,sample_data:Deloitte-Crane-style-mock
+2026-03-31,Midtown,refurb_pipeline,250.0,k_sqft,sample_data:Deloitte-Crane-style-mock
+2026-03-31,City,prelet_ratio,55.0,percent,sample_data:Deloitte-Crane-style-mock
+2026-03-31,West End,prelet_ratio,62.0,percent,sample_data:Deloitte-Crane-style-mock
+2026-03-31,Canary Wharf,prelet_ratio,18.0,percent,sample_data:Deloitte-Crane-style-mock
+2026-03-31,Midtown,prelet_ratio,40.0,percent,sample_data:Deloitte-Crane-style-mock

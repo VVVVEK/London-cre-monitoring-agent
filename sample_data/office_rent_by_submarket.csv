@@ -1,0 +1,41 @@
+date,submarket,metric,value,unit,source
+2025-03-31,City,prime_rent,80.0,GBP/sqft/yr,sample_data:JLL-style-mock
+2025-06-30,City,prime_rent,81.0,GBP/sqft/yr,sample_data:JLL-style-mock
+2025-09-30,City,prime_rent,82.0,GBP/sqft/yr,sample_data:JLL-style-mock
+2025-12-31,City,prime_rent,83.0,GBP/sqft/yr,sample_data:JLL-style-mock
+2026-03-31,City,prime_rent,84.0,GBP/sqft/yr,sample_data:JLL-style-mock
+2025-03-31,West End,prime_rent,120.0,GBP/sqft/yr,sample_data:JLL-style-mock
+2025-06-30,West End,prime_rent,122.0,GBP/sqft/yr,sample_data:JLL-style-mock
+2025-09-30,West End,prime_rent,125.0,GBP/sqft/yr,sample_data:JLL-style-mock
+2025-12-31,West End,prime_rent,128.0,GBP/sqft/yr,sample_data:JLL-style-mock
+2026-03-31,West End,prime_rent,130.0,GBP/sqft/yr,sample_data:JLL-style-mock
+2025-03-31,Canary Wharf,prime_rent,60.0,GBP/sqft/yr,sample_data:JLL-style-mock
+2025-06-30,Canary Wharf,prime_rent,59.0,GBP/sqft/yr,sample_data:JLL-style-mock
+2025-09-30,Canary Wharf,prime_rent,57.0,GBP/sqft/yr,sample_data:JLL-style-mock
+2025-12-31,Canary Wharf,prime_rent,55.0,GBP/sqft/yr,sample_data:JLL-style-mock
+2026-03-31,Canary Wharf,prime_rent,52.0,GBP/sqft/yr,sample_data:JLL-style-mock
+2025-03-31,Midtown,prime_rent,72.0,GBP/sqft/yr,sample_data:JLL-style-mock
+2025-06-30,Midtown,prime_rent,73.0,GBP/sqft/yr,sample_data:JLL-style-mock
+2025-09-30,Midtown,prime_rent,73.0,GBP/sqft/yr,sample_data:JLL-style-mock
+2025-12-31,Midtown,prime_rent,74.0,GBP/sqft/yr,sample_data:JLL-style-mock
+2026-03-31,Midtown,prime_rent,75.0,GBP/sqft/yr,sample_data:JLL-style-mock
+2025-03-31,City,grade_a_rent,72.0,GBP/sqft/yr,sample_data:JLL-style-mock
+2025-06-30,City,grade_a_rent,73.0,GBP/sqft/yr,sample_data:JLL-style-mock
+2025-09-30,City,grade_a_rent,74.0,GBP/sqft/yr,sample_data:JLL-style-mock
+2025-12-31,City,grade_a_rent,75.0,GBP/sqft/yr,sample_data:JLL-style-mock
+2026-03-31,City,grade_a_rent,76.0,GBP/sqft/yr,sample_data:JLL-style-mock
+2025-03-31,West End,grade_a_rent,108.0,GBP/sqft/yr,sample_data:JLL-style-mock
+2025-06-30,West End,grade_a_rent,110.0,GBP/sqft/yr,sample_data:JLL-style-mock
+2025-09-30,West End,grade_a_rent,113.0,GBP/sqft/yr,sample_data:JLL-style-mock
+2025-12-31,West End,grade_a_rent,116.0,GBP/sqft/yr,sample_data:JLL-style-mock
+2026-03-31,West End,grade_a_rent,118.0,GBP/sqft/yr,sample_data:JLL-style-mock
+2025-03-31,Canary Wharf,grade_a_rent,54.0,GBP/sqft/yr,sample_data:JLL-style-mock
+2025-06-30,Canary Wharf,grade_a_rent,53.0,GBP/sqft/yr,sample_data:JLL-style-mock
+2025-09-30,Canary Wharf,grade_a_rent,51.0,GBP/sqft/yr,sample_data:JLL-style-mock
+2025-12-31,Canary Wharf,grade_a_rent,49.0,GBP/sqft/yr,sample_data:JLL-style-mock
+2026-03-31,Canary Wharf,grade_a_rent,47.0,GBP/sqft/yr,sample_data:JLL-style-mock
+2025-03-31,Midtown,grade_a_rent,65.0,GBP/sqft/yr,sample_data:JLL-style-mock
+2025-06-30,Midtown,grade_a_rent,66.0,GBP/sqft/yr,sample_data:JLL-style-mock
+2025-09-30,Midtown,grade_a_rent,66.0,GBP/sqft/yr,sample_data:JLL-style-mock
+2025-12-31,Midtown,grade_a_rent,67.0,GBP/sqft/yr,sample_data:JLL-style-mock
+2026-03-31,Midtown,grade_a_rent,68.0,GBP/sqft/yr,sample_data:JLL-style-mock

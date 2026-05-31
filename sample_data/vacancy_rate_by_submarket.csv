@@ -1,0 +1,41 @@
+date,submarket,metric,value,unit,source
+2025-03-31,City,vacancy,8.0,percent,sample_data:Savills-style-mock
+2025-06-30,City,vacancy,8.2,percent,sample_data:Savills-style-mock
+2025-09-30,City,vacancy,8.1,percent,sample_data:Savills-style-mock
+2025-12-31,City,vacancy,8.0,percent,sample_data:Savills-style-mock
+2026-03-31,City,vacancy,7.9,percent,sample_data:Savills-style-mock
+2025-03-31,West End,vacancy,4.0,percent,sample_data:Savills-style-mock
+2025-06-30,West End,vacancy,3.8,percent,sample_data:Savills-style-mock
+2025-09-30,West End,vacancy,3.7,percent,sample_data:Savills-style-mock
+2025-12-31,West End,vacancy,3.6,percent,sample_data:Savills-style-mock
+2026-03-31,West End,vacancy,3.5,percent,sample_data:Savills-style-mock
+2025-03-31,Canary Wharf,vacancy,9.0,percent,sample_data:Savills-style-mock
+2025-06-30,Canary Wharf,vacancy,9.5,percent,sample_data:Savills-style-mock
+2025-09-30,Canary Wharf,vacancy,11.0,percent,sample_data:Savills-style-mock
+2025-12-31,Canary Wharf,vacancy,13.0,percent,sample_data:Savills-style-mock
+2026-03-31,Canary Wharf,vacancy,15.0,percent,sample_data:Savills-style-mock
+2025-03-31,Midtown,vacancy,7.0,percent,sample_data:Savills-style-mock
+2025-06-30,Midtown,vacancy,7.2,percent,sample_data:Savills-style-mock
+2025-09-30,Midtown,vacancy,7.5,percent,sample_data:Savills-style-mock
+2025-12-31,Midtown,vacancy,7.6,percent,sample_data:Savills-style-mock
+2026-03-31,Midtown,vacancy,7.8,percent,sample_data:Savills-style-mock
+2025-03-31,City,availability,9.0,percent,sample_data:Savills-style-mock
+2025-06-30,City,availability,9.1,percent,sample_data:Savills-style-mock
+2025-09-30,City,availability,9.0,percent,sample_data:Savills-style-mock
+2025-12-31,City,availability,8.9,percent,sample_data:Savills-style-mock
+2026-03-31,City,availability,8.8,percent,sample_data:Savills-style-mock
+2025-03-31,West End,availability,4.8,percent,sample_data:Savills-style-mock
+2025-06-30,West End,availability,4.6,percent,sample_data:Savills-style-mock
+2025-09-30,West End,availability,4.4,percent,sample_data:Savills-style-mock
+2025-12-31,West End,availability,4.3,percent,sample_data:Savills-style-mock
+2026-03-31,West End,availability,4.2,percent,sample_data:Savills-style-mock
+2025-03-31,Canary Wharf,availability,10.5,percent,sample_data:Savills-style-mock
+2025-06-30,Canary Wharf,availability,11.2,percent,sample_data:Savills-style-mock
+2025-09-30,Canary Wharf,availability,13.0,percent,sample_data:Savills-style-mock
+2025-12-31,Canary Wharf,availability,15.5,percent,sample_data:Savills-style-mock
+2026-03-31,Canary Wharf,availability,17.5,percent,sample_data:Savills-style-mock
+2025-03-31,Midtown,availability,8.0,percent,sample_data:Savills-style-mock
+2025-06-30,Midtown,availability,8.2,percent,sample_data:Savills-style-mock
+2025-09-30,Midtown,availability,8.4,percent,sample_data:Savills-style-mock
+2025-12-31,Midtown,availability,8.5,percent,sample_data:Savills-style-mock
+2026-03-31,Midtown,availability,8.7,percent,sample_data:Savills-style-mock

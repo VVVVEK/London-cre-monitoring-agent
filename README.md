@@ -48,27 +48,68 @@ See `DATA_INTEGRITY.md` for full policy and enforcement rules.
 
 ## Quick Start
 
-```bash
-# 1) Create environment
-python -m venv .venv
-.venv\Scripts\activate
+### Option A — Zero-config run (recommended for first review)
 
-# 2) Install deps
+No API keys required. The agent runs the full workflow on the bundled
+`sample_data/` and produces a real weekly briefing.
+
+```bash
+# 1) Install deps
 pip install -r requirements.txt
 
-# 3) Optional: enable live sources / LLM
-copy .env.example .env
-
-# 4) Validate config
-python -m app.main check-config
-
-# 5) Run full workflow and generate report
+# 2) Run the full workflow and generate the weekly briefing
 python -m app.main report
 ```
 
 Generated report path:
 
 - `reports/weekly_briefing_YYYYMMDD_HHMM.md`
+
+> Tip: for a fully deterministic, offline run, set `PREFER_SAMPLE_DATA=true`
+> in your `.env` (copy it from `.env.example` first). The agent then skips all
+> live calls and uses sample data only.
+
+### Option B — Live mode (observed macro + news + LLM)
+
+```bash
+# 1) (optional but recommended) isolate the environment
+python -m venv .venv
+.venv\Scripts\activate
+
+# 2) Install deps
+pip install -r requirements.txt
+
+# 3) Enable live sources / LLM by adding your keys
+copy .env.example .env   # then fill FRED_API_KEY / NEWSAPI_KEY / OPENAI_API_KEY
+
+# 4) Validate config (no secrets are printed)
+python -m app.main check-config
+
+# 5) Run full workflow and generate report
+python -m app.main report
+```
+
+### Option C — Web UI (interactive dashboard)
+
+Prefer a visual, business-facing view? Launch the Streamlit dashboard. It calls
+the same orchestrator/skills as the CLI, so scores, alerts, Q&A, and data
+quality tags are identical — just rendered in a browser.
+
+```bash
+pip install -r requirements.txt
+python -m streamlit run app/ui/streamlit_app.py --server.port 8501
+```
+
+Then open `http://localhost:8501` in your browser (it usually opens
+automatically). Press `Ctrl + C` in the terminal to stop the server.
+
+### About live-source warnings (expected behavior)
+
+If a live source (e.g. FRED or NewsAPI) is temporarily unreachable, you may see
+`WARNING` lines like `FRED fetch failed ... falling back to sample`. **This is
+by design, not an error**: the pipeline degrades gracefully to tagged
+`synthetic` sample data so a report is always produced. The run still finishes
+with status `success`/`partial` and the briefing is written to `reports/`.
 
 ## CLI Commands
 
@@ -91,15 +132,6 @@ python -m app.main check-config
 python -m app.main report
 python -m app.main ask "What are the main risks in Canary Wharf?"
 ```
-
-## Streamlit Demo (Optional)
-
-```bash
-python -m streamlit run app/ui/streamlit_app.py --server.port 8501
-```
-
-The UI calls the same orchestrator/skills as the CLI and preserves quality tags
-and evidence disclosure.
 
 ## Architecture
 

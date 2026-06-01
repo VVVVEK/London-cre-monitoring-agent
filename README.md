@@ -123,7 +123,6 @@ app/
   ui/
   utils/
 sample_data/
-slides/
 tests/
 ```
 
@@ -178,13 +177,6 @@ python -m pytest -q
 ```
 
 Current status: `21 passed`.
-
-## Repository Deliverables
-
-- `README.md` (this file)
-- `DATA_INTEGRITY.md`
-- `slides/business_deck.md` (business-facing slide copy)
-- `SUBMISSION_CHECKLIST.md`
 
 ## Limitations and Next Steps
 

@@ -16,6 +16,7 @@ from app.data import repository
 from app.llm.client import LLMClient
 from app.llm.prompts import QA_SYSTEM
 from app.skills import analysis_skill
+from app.utils.integrity import clean_optional_str
 from app.utils.logging import get_logger
 
 log = get_logger(__name__)
@@ -61,7 +62,7 @@ def _evidence_for(df, submarkets, metrics) -> tuple[list[Evidence], list[str]]:
             evidence.append(Evidence(source=row["source"], timestamp=str(row["date"]),
                                      metric=f"{sm} {metric}", value=float(row["value"]),
                                      evidence_type=row.get("data_quality", "synthetic"),
-                                     source_url=row.get("source_url")))
+                                     source_url=clean_optional_str(row.get("source_url"))))
             chg, pct = analysis_skill._momentum(df, sm, metric)
             trend = f" ({'+' if (chg or 0) >= 0 else ''}{chg:.1f} over 3 periods)" if chg is not None else ""
             points.append(f"{sm} {metric}: {row['value']:g}{row['unit'] and ' ' + row['unit'] or ''}{trend}")
@@ -97,7 +98,7 @@ def run(question: str) -> QAResult:
                     evidence.append(Evidence(
                         source=hl["source"], timestamp=hl["date"], metric=f"{sm} news",
                         note=hl["headline"][:120], evidence_type=hl["evidence_type"],
-                        source_url=hl.get("source_url")))
+                        source_url=clean_optional_str(hl.get("source_url"))))
         if wants_score:
             for sc in analysis["score_objects"]:
                 if sc.submarket in submarkets:
